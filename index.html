@@ -5,9 +5,42 @@
     <title>Psychic Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
   </head>
   <body>
-    This is HTML
+    <h1>The Psychic Game</h1>
+
+    <p>
+      Here's how the game works:
+    </p>
+    <ol>
+      <li>
+        The computer guesses a letter.  Boom!
+      </li>
+      <li>
+        You type letters on the keyboard.  Bam!
+      </li>
+      <li>
+        We'll let you know if you guess right.  Yowza!
+      </li>
+    </ul>
+
+    <p>
+      Wins: <span id="totalplayerwins">0</span>
+    </p>
+
+    <p>
+      Losses: <span id="totalplayerlosses">0</span>
+    </p>
+
+
+    <p>
+      Guesses left:<span id="remaining-guesses">10</span>
+    </p>
+
+    <p>
+      Your guesses so far:<span id="guessedletters">No guesses yet</span>
+    </p>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
   </body>
 </html>
