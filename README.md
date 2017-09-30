@@ -1,5 +1,5 @@
 # psychic-game
-This is Trilogy Ed homework: psychic game.
+This is Trilogy Ed homework: psychic game.  It's an experiment written in vanilla JavaScript.
 
 ## rules and requirements
 1. The app randomly picks a letter, and the user has to guess which letter the app chose. Put the following text on your page:
