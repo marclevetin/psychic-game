@@ -1,0 +1,30 @@
+body {
+  background-image: url(../images/pexels-photo-370799.jpeg);
+}
+
+#center {
+  margin: auto;
+  width: 50%;
+  background-color: lightblue;
+  min-height: 40rem;
+  height: 50%;
+  padding: 2em;
+  border: 2px solid lightblue;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 200%;
+  line-height: 120%;
+  font-family: 'Rye', cursive;
+  text-align: center;
+}
+
+p, li {
+  line-height: 120%;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  font-family: 'Rye', cursive;
+}

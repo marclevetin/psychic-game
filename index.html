@@ -3,44 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>Psychic Game</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rye" rel="stylesheet">
   </head>
   <body>
-    <h1>The Psychic Game</h1>
+    <div id="center">
+      <h1>The Psychic Game</h1>
 
-    <p>
-      Here's how the game works:
-    </p>
-    <ol>
-      <li>
-        The computer guesses a letter.  Boom!
-      </li>
-      <li>
-        You type letters on the keyboard.  Bam!
-      </li>
-      <li>
-        We'll let you know if you guess right.  Yowza!
-      </li>
-    </ul>
+      <p>
+        Here's how the game works:
+      </p>
+      <ul class="list">
+        <li>
+          The computer guesses a letter.  Boom!
+        </li>
+        <li>
+          You type letters on the keyboard.  Bam!
+        </li>
+        <li>
+          We'll let you know if you guess right.  Yowza!
+        </li>
+      </ul>
 
-    <p>
-      Wins: <span id="totalplayerwins">0</span>
-    </p>
+      <div id="htmlblock">
+        <p>
+          Wins: <span id="totalplayerwins">0</span>
+        </p>
 
-    <p>
-      Losses: <span id="totalplayerlosses">0</span>
-    </p>
+        <p>
+          Losses: <span id="totalplayerlosses">0</span>
+        </p>
+      </div>
 
+      <p>
+        Guesses left: <span id="remaining-guesses">10</span>
+      </p>
 
-    <p>
-      Guesses left:<span id="remaining-guesses">10</span>
-    </p>
+      <p>
+        Your guesses so far: <span id="guessedletters">No guesses yet.  Press any key to begin.</span>
+      </p>
 
-    <p>
-      Your guesses so far:<span id="guessedletters">No guesses yet</span>
-    </p>
-
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </div>
   </body>
 </html>

@@ -16,7 +16,7 @@ document.onkeypress = function(key) {
 }
 
 function updateDOM() {
-  document.getElementById("guessedletters").innerHTML = guessedLetters;
+  document.getElementById("guessedletters").innerHTML = guessedLetters.split("").join(", ");
   document.getElementById("remaining-guesses").innerHTML = remainingCountOfPlayerGuesses;
   document.getElementById("totalplayerwins").innerHTML = totalPlayerWins;
   document.getElementById("totalplayerlosses").innerHTML = totalPlayerLosses;
