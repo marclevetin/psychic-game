@@ -4,7 +4,7 @@ This is Trilogy Ed homework: psychic game.  It's an experiment written in vanill
 ## rules and requirements
 1. The app randomly picks a letter, and the user has to guess which letter the app chose. Put the following text on your page:
 
-2. Guess what letter I'm thinking of
+2. Guess what letter I'm thinking of t
 
 3. Wins: (# of times the user has guessed the letter correctly)
 
@@ -24,3 +24,6 @@ This is Trilogy Ed homework: psychic game.  It's an experiment written in vanill
 2.  open index.html
 
 3.  enjoy!
+
+## play it online right now
+http://htmlpreview.github.io/?https://github.com/marclevetin/psychic-game
