@@ -26,4 +26,4 @@ This is Trilogy Ed homework: psychic game.  It's an experiment written in vanill
 3.  enjoy!
 
 ## play it online right now
-http://htmlpreview.github.io/?https://github.com/marclevetin/psychic-game
+http://htmlpreview.github.io/?https://github.com/marclevetin/psychic-game/blob/master/index.html
